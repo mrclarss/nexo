@@ -1,57 +1,122 @@
 [
-    {
-        "id": 1,
-        "nome": "O Diário de Mika: um Rabisco de dar Medo",
-        "descricao": "Mika é uma garotinha de 4 anos esperta e criativa que adora desenhar. Explorando o mundo e suas emoções, ela conversa com seus brinquedos para encontrar soluções para seus sentimentos. Parte do projeto 'O Diário de Mika', criado para crianças que veem o mundo com o brilho da primeira vez.",
-        "classificacao_indicativa": "L",
-        "genero": "Estudo e Exercícios",
-        "data_lancamento": "2021",
-        "imagem": "https://m.media-amazon.com/images/I/81WEmqJ3AOS._SL1500_.jpg",
-        "link_amazon": "https://www.amazon.com.br/Di%C3%A1rio-Mika-Rabisco-dar-Medo/dp/6599485103"
-    },
-    {
-        "id": 2,
-        "nome": "The Hunger Games",
-        "descricao": "Num futuro distópico, Katniss Everdeen se oferece para substituir sua irmã numa competição mortal televisionada, os Jogos Vorazes, onde adolescentes lutam até a morte.",
-        "classificacao_indicativa": "Jovens / Teens (YA)",
-        "genero": "Distopia, ficção científica, aventura",
-        "data_lancamento": "2008-09-14",
-        "link_amazon": "https://www.amazon.com/dp/0439023521"
-    },
-    {
-        "id": 3,
-        "nome": "Harry Potter and the Philosopher's Stone",
-        "descricao": "Um menino órfão descobre que é um bruxo, ingressa na escola de magia Hogwarts e embarca numa jornada que envolve a Pedra Filosofal e o retorno de Voldemort.",
-        "classificacao_indicativa": "Infantil / Jovem (middle-grade)",
-        "genero": "Fantasia",
-        "data_lancamento": "1997-06-26",
-        "link_amazon": "https://www.amazon.com/dp/059035342X"
-    },
-    {
-        "id": 4,
-        "nome": "Mockingjay",
-        "descricao": "Katniss Everdeen se torna o símbolo da rebelião contra o Capitólio, enfrentando conflitos políticos, perdas e decisões difíceis no final da trilogia.",
-        "classificacao_indicativa": "Jovens / Adultos (YA)",
-        "genero": "Distopia, ficção política",
-        "data_lancamento": "2010-08-24",
-        "link_amazon": "https://www.amazon.com/dp/0439023513"
-    },
-    {
-        "id": 5,
-        "nome": "Catching Fire",
-        "descricao": "Após vencer os Jogos Vorazes, Katniss é arrastada para uma nova edição dos jogos e para o crescimento de rebeliões pelo país.",
-        "classificacao_indicativa": "Jovens / Adolescente",
-        "genero": "Distopia, aventura",
-        "data_lancamento": "2009-01-01",
-        "link_amazon": "https://www.amazon.com/dp/0439023491"
-    },
-    {
-        "id": 6,
-        "nome": "Divergent",
-        "descricao": "Em uma sociedade dividida em facções, Tris descobre ser divergente, o que a coloca em risco enquanto desafia o sistema.",
-        "classificacao_indicativa": "Jovem adulto",
-        "genero": "Distopia, ficção juvenil",
-        "data_lancamento": "2011-01-01",
-        "link_amazon": "https://www.amazon.com/dp/0062024035"
-    }
+  {
+    "id": 1,
+    "nome": "O Diário de Mika: um Rabisco de dar Medo",
+    "descricao": "Mika é uma garotinha de 4 anos bastante esperta e criativa, adora desenhar. Como o mundo é muito novo para ela, entender suas próprias emoções e sentimentos não é uma tarefa fácil. Sendo assim, desenhando em seu tablet, compartilha suas reflexões com seus amigos brinquedos, encontrando sempre uma boa solução para seus questionamentos.\nEste livro faz parte do projeto \"O Diário de Mika\" que foi feito para todas as crianças, pequenas ou grandes, que trazem no olhar o brilho da primeira vez para este mundo vasto e encantador. Olhar puro, que não julga nem supõe. Acredita.",
+    "autor": "Elizabeth Mendes",
+    "editora": "Buscapé",
+    "data_lancamento": "2021",
+    "classificacao_indicativa": "L",
+    "genero": "Estudo e Exercícios",
+    "imagem": "https://m.media-amazon.com/images/I/81WEmqJ3AOS._SL1500_.jpg",
+    "link_amazon": "https://www.amazon.com.br/Di%C3%A1rio-Mika-Rabisco-dar-Medo/dp/6599485103"
+  },
+  {
+    "id": 2,
+    "nome": "As aventuras de Pinóquio",
+    "descricao": "Um pedaço de madeira falante aparece misteriosamente na oficina de mestre Cereja. O marceneiro, apavorado, presenteia o amigo Gepeto com essa peça de madeira viva. Gepeto tem planos ambiciosos: fabricar uma marionete maravilhosa, capaz de dançar e dar saltos mortais, e ganhar o mundo com sua atração.Os planos do pobre marceneiro, porém, não se concretizam. Mal nasce, Pinóquio já começa com suas estripulias: arranca a peruca amarela de seu \"pai\", e seu nariz começa a crescer até se tornar um \"narigão interminável\". Daqui por diante, Pinóquio vai se meter em confusão atrás de confusão. Vende a cartilha que ganhou de Gepeto, escapa de ir à escola e vai parar no Grande Teatro de Marionetes. Ele se defronta com as artimanhas da Raposa e do Gato, que o levam para o Campo dos Milagres e tentam enforcá-lo. Do seu lado, estão o conselheiro Grilo-Falante e a Fada de cabelos azuis, que aparece para salvá-lo da armadilha do País dos Brinquedos, onde os meninos se transformam em burros.As aventuras de Pinóquio é a obra original de Carlo Collodi, publicada pela primeira vez em 1883. Em seu percurso de transformação de boneco em menino, Pinóquio enfrenta as intempéries das noites longas e frias, depara com a autoridade da lei, padece de uma fome terrível e descobre a solidão da condição humana. Fantasia, humor e ironia se combinam neste clássico da literatura, indicado para todas as idades.",
+    "autor": "Carlo Collodi, Odilon Moraes, Marina Colasanti",
+    "editora": "Companhia das Letrinhas",  
+    "data_lancamento": "2002",  
+    "classificacao_indicativa": "L",
+    "genero": "Infantil, Infantojuvenil",
+    "imagem": "https://m.media-amazon.com/images/I/A1Axvb8-IEL._SY425_.jpg",
+    "link_amazon": "https://www.amazon.com.br/As-aventuras-Pin%C3%B3quio-Carlo-Collodi/dp/857406131X"
+  },
+  {
+    "id": 3,
+    "nome": "Bob Esponja – Plankton ataca novamente",
+    "descricao": "Bob Esponja está animado para aproveitar o fim de semana com os amigos. Mas, antes, ele precisa recuperar o capacete da Sandy, que o Plankton roubou. Você vai embarcar em uma grande aventura com os personagens mais engraçados dos sete mares e se divertir com incríveis imagens em 3-D e atividades fantásticas!",
+    "autor": "Ciranda Cultural",
+    "editora": "Ciranda Cultural",
+    "data_lancamento": "2016",
+    "classificacao_indicativa": "L",
+    "genero": "Infantil",
+    "imagem": "https://m.media-amazon.com/images/I/71JeapJr2bL._SY385_.jpg",  
+    "link_amazon": "https://www.amazon.com.br/Bob-Esponja-Plankton-ataca-novamente/dp/8538063510"
+  },
+  {
+    "id": 4,
+    "nome": "Pica-Pau Aprende Uma Lição",
+    "descricao": "O Pica-Pau adora se divertir. E resolveu tirar umas férias às custas do Leôncio. Só que o nosso amigo não imagina as consequências que as brincadeiras dele podem ter! É... o Pica-Pau passou dos limites com o Leôncio e acabou aprendendo uma grande lição. Tudo isso em uma história para lá de engraçada!\nJunte-se ao Pica-Pau e boa leitura!",
+    "autor": "Halina Silva",
+    "editora": "Fundamento",
+    "data_lancamento": "2010",
+    "classificacao_indicativa": "Infantil",
+    "genero": "Infantil",  
+    "imagem": "https://m.media-amazon.com/images/I/61SigCsHxGL._SY342_.jpg",  
+    "link_amazon": "https://www.amazon.com.br/Pica-Pau-Aprende-Licao-Halina-Silva/dp/8576767678"
+  },
+  {
+    "id": 5,
+    "nome": "Tom e Jerry Revista em Quadrinhos Edição 01",
+    "descricao": "Prepare-se para risadas intermináveis com muitas histórias divertidas na mais recente edição de quadrinhos estrelada pela clássica dupla, Tom & Jerry. Uma leitura cativante e cheia de travessuras a cada página aguarda por você!",
+    "autor": "Warner Bros.",
+    "editora": "On Line Editora",
+    "data_lancamento": "2024",
+    "classificacao_indicativa": "Infantil",
+    "genero": "Design Gráfico Comercial",  
+    "imagem": "https://m.media-amazon.com/images/I/71AeCwrG28L._SY466_.jpg",  
+    "link_amazon": "https://www.amazon.com.br/Tom-Jerry-Revista-Quadrinhos-Edi%C3%A7%C3%A3o/dp/B0CH8RL8GZ"
+  },
+  {
+    "id": 6,
+    "nome": "Tom e Jerry Revista em Quadrinhos Edição 02",
+    "descricao": "Prepare-se para risadas intermináveis com muitas histórias divertidas na mais recente edição de quadrinhos estrelada pela clássica dupla, Tom & Jerry. Uma leitura cativante e cheia de travessuras a cada página aguarda por você!",
+    "autor": "Warner Bros.",
+    "editora": "On Line Editora",
+    "data_lancamento": "2024",
+    "classificacao_indicativa": "Infantil",
+    "genero": "Design Gráfico Comercial",  
+    "imagem": "https://m.media-amazon.com/images/I/81erSzufYnL._SY466_.jpg",  
+    "link_amazon": "https://www.amazon.com.br/Tom-Jerry-Revista-Quadrinhos-Edi%C3%A7%C3%A3o/dp/B0CGVZBJFW"
+  },
+  {
+    "id": 7,
+    "nome": "Tom e Jerry Revista em Quadrinhos Edição 03",
+    "descricao": "Segura a risada porque a dupla dinâmica, Tom & Jerry, está de volta! Esta edição um festival de risadas intermináveis, onde cada página é uma explosão de diversão e travessuras.",
+    "autor": "Warner Bros.",
+    "editora": "On Line Editora",
+    "data_lancamento": "2024",
+    "classificacao_indicativa": "Infantil",
+    "genero": "Design Gráfico Comercial",  
+    "imagem": "https://m.media-amazon.com/images/I/51qcGJrvaWL._SY300_.jpg",  
+    "link_amazon": "https://www.amazon.com.br/gp/product/B0CT3W21V3?ref_=dbs_m_mng_rwt_calw_tpbk_2&storeType=ebooks"
+  },
+  {
+    "id": 8,
+    "nome": "Tom e Jerry Revista em Quadrinhos Edição 04",
+    "descricao": "Segura a risada porque a dupla dinâmica, Tom & Jerry, está de volta! Esta edição um festival de risadas intermináveis, onde cada página é uma explosão de diversão e travessuras.",
+    "autor": "Warner Bros.",
+    "editora": "On Line Editora",
+    "data_lancamento": "2024",
+    "classificacao_indicativa": "Infantil",
+    "genero": "Design Gráfico Comercial",  
+    "imagem": "https://m.media-amazon.com/images/I/51-8u9U6AaL._SY300_.jpg",  
+    "link_amazon": "https://www.amazon.com.br/gp/product/B0CT3XQ8QC?ref_=dbs_m_mng_rwt_calw_tpbk_3&storeType=ebooks"
+  },
+  {
+    "id": 9,
+    "nome": "Tom e Jerry Revista em Quadrinhos Edição 05",
+    "descricao": "Segura a risada porque a dupla dinâmica, Tom & Jerry, está de volta! Esta edição um festival de risadas intermináveis, onde cada página é uma explosão de diversão e travessuras.",
+    "autor": "Warner Bros.",
+    "editora": "On Line Editora",
+    "data_lancamento": "2024",
+    "classificacao_indicativa": "Infantil",
+    "genero": "Design Gráfico Comercial",  
+    "imagem": "https://m.media-amazon.com/images/I/51GyU2+MAmL._SY300_.jpg",  
+    "link_amazon": "https://www.amazon.com.br/gp/product/B0CT3Z7VX6?ref_=dbs_m_mng_rwt_calw_tpbk_4&storeType=ebooks"
+  },
+  {
+    "id": 10,
+    "nome": "Tom e Jerry Revista em Quadrinhos Edição 03",
+    "descricao": "Segura a risada porque a dupla dinâmica, Tom & Jerry, está de volta! Esta edição um festival de risadas intermináveis, onde cada página é uma explosão de diversão e travessuras.",
+    "autor": "Warner Bros.",
+    "editora": "On Line Editora",
+    "data_lancamento": "2024",
+    "classificacao_indicativa": "Infantil",
+    "genero": "Design Gráfico Comercial",  
+    "imagem": "https://m.media-amazon.com/images/I/51mi6HWbacL._SY300_.jpg",  
+    "link_amazon": "https://www.amazon.com.br/gp/product/B0CT3WX3TS?ref_=dbs_m_mng_rwt_calw_tpbk_5&storeType=ebooks"
+  }
 ]

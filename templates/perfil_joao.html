@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Meus livros preferidos</h1>
+    {%for livro in dados%}
+    <div style="display: flex; gap: 18px; align-items: center; margin: 24px 0;">
+        <div><img src="{{livro.imagem}}" alt="" style="width: 200px;"></div>
+        <div>
+            <h2><a href="{{livro.link_amazon}}">{{livro.nome}}</a></h2>
+            <p>por {{livro.autor}}</p>
+            <p style="margin: 16px 0;">{{livro.descricao}}</p>
+            <div style="display: flex; gap: 24px;">
+                <div>
+                    <p><b>Editora</b></p>
+                    <p>{{livro.editora}}</p>
+                </div>
+                <div>
+                    <p><b>Data de lançamento</b></p>
+                    <p>{{livro.data_lancamento}}</p>
+                </div>
+                <div>
+                    <p><b>Classificação Indicativa</b></p>
+                    <p>{{livro.classificacao_indicativa}}</p>
+                </div>
+                <div>
+                    <p><b>Gênero</b></p>
+                    <p>{{livro.genero}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    {%endfor%}
+</body>
+</html>
