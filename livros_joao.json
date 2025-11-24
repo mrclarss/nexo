@@ -1,5 +1,57 @@
 [
     {
-        "nome":"O Diário de Mika"
+        "id": 1,
+        "nome": "O Diário de Mika: um Rabisco de dar Medo",
+        "descricao": "Mika é uma garotinha de 4 anos esperta e criativa que adora desenhar. Explorando o mundo e suas emoções, ela conversa com seus brinquedos para encontrar soluções para seus sentimentos. Parte do projeto 'O Diário de Mika', criado para crianças que veem o mundo com o brilho da primeira vez.",
+        "classificacao_indicativa": "L",
+        "genero": "Estudo e Exercícios",
+        "data_lancamento": "2021",
+        "imagem": "https://m.media-amazon.com/images/I/81WEmqJ3AOS._SL1500_.jpg",
+        "link_amazon": "https://www.amazon.com.br/Di%C3%A1rio-Mika-Rabisco-dar-Medo/dp/6599485103"
+    },
+    {
+        "id": 2,
+        "nome": "The Hunger Games",
+        "descricao": "Num futuro distópico, Katniss Everdeen se oferece para substituir sua irmã numa competição mortal televisionada, os Jogos Vorazes, onde adolescentes lutam até a morte.",
+        "classificacao_indicativa": "Jovens / Teens (YA)",
+        "genero": "Distopia, ficção científica, aventura",
+        "data_lancamento": "2008-09-14",
+        "link_amazon": "https://www.amazon.com/dp/0439023521"
+    },
+    {
+        "id": 3,
+        "nome": "Harry Potter and the Philosopher's Stone",
+        "descricao": "Um menino órfão descobre que é um bruxo, ingressa na escola de magia Hogwarts e embarca numa jornada que envolve a Pedra Filosofal e o retorno de Voldemort.",
+        "classificacao_indicativa": "Infantil / Jovem (middle-grade)",
+        "genero": "Fantasia",
+        "data_lancamento": "1997-06-26",
+        "link_amazon": "https://www.amazon.com/dp/059035342X"
+    },
+    {
+        "id": 4,
+        "nome": "Mockingjay",
+        "descricao": "Katniss Everdeen se torna o símbolo da rebelião contra o Capitólio, enfrentando conflitos políticos, perdas e decisões difíceis no final da trilogia.",
+        "classificacao_indicativa": "Jovens / Adultos (YA)",
+        "genero": "Distopia, ficção política",
+        "data_lancamento": "2010-08-24",
+        "link_amazon": "https://www.amazon.com/dp/0439023513"
+    },
+    {
+        "id": 5,
+        "nome": "Catching Fire",
+        "descricao": "Após vencer os Jogos Vorazes, Katniss é arrastada para uma nova edição dos jogos e para o crescimento de rebeliões pelo país.",
+        "classificacao_indicativa": "Jovens / Adolescente",
+        "genero": "Distopia, aventura",
+        "data_lancamento": "2009-01-01",
+        "link_amazon": "https://www.amazon.com/dp/0439023491"
+    },
+    {
+        "id": 6,
+        "nome": "Divergent",
+        "descricao": "Em uma sociedade dividida em facções, Tris descobre ser divergente, o que a coloca em risco enquanto desafia o sistema.",
+        "classificacao_indicativa": "Jovem adulto",
+        "genero": "Distopia, ficção juvenil",
+        "data_lancamento": "2011-01-01",
+        "link_amazon": "https://www.amazon.com/dp/0062024035"
     }
 ]
