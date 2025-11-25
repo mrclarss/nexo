@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', Arial, sans-serif;
+    background: #fff;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-panel {
+    flex: 1;
+    background: linear-gradient(120deg, #856AFA 65%, #EADAA6 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 60px 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    position: relative;
+}
+
+.left-panel .logo {
+    width: 100px;
+    margin-bottom: 40px;
+}
+
+.left-panel h1 {
+    color: #FCF8C0;
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-top: 140px;
+    line-height: 1.1;
+}
+
+.right-panel {
+    flex: 1;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-login {
+    width: 150px;
+}
+
+.right-panel h2 {
+    font-size: 2.5rem;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 700;
+    color: #231942;
+    margin-bottom: 30px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 340px;
+}
+
+.login-form input {
+    font-size: 1rem;
+    padding: 14px 16px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    border: 1px solid #bbb;
+    outline: none;
+}
+
+.forgot-password {
+    align-self: flex-start;
+    margin-bottom: 18px;
+    font-size: 1rem;
+    color: #7E57C2;
+    text-decoration: none;
+}
+
+
+
+
+.login-form button {
+    background: #7E57C2;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 14px;
+    padding: 14px 0;
+    cursor: pointer;
+    margin-bottom: 22px;
+    transition: background 0.3s;
+}
+
+.login-form button:hover {
+    background-color: goldenrod;
+}
+
+.register {
+    text-align: center;
+    font-size: 1rem;
+    color: #6b6b6b;
+}
+
+.register a {
+    color: #7E57C2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register a:hover{
+    color: goldenrod;
+}
+
+@media (max-width: 900px) {
+    .container {
+        flex-direction: column;
+    }
+    .left-panel,
+    .right-panel {
+        border-radius: 0;
+        min-height: 220px;
+    }
+    .left-panel {
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        padding: 40px 20px;
+    }
+}

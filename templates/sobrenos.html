@@ -4,23 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nexo</title>
-    <link rel="stylesheet" href="sobrenos.css">
+    <link rel="stylesheet" href="../static/sobrenos.css">
+    <link rel="stylesheet" href="../static/img/">
 </head>
 <body>
 
     <header class="header">
         <div class="logo">
-            <img src="img/logo.png" alt="Logo Nexo">
+            <img src="../static/img/logo.png" alt="Logo Nexo">
         </div>
 
         <input type="text" placeholder="Pesquisar..." class="search">
 
         <nav>
-            <a href="#" class="active">Home</a>
+            <a href="#">Home</a>
             <a href="#">Sobre</a>
         </nav>
 
-        <button class="login-btn">Login</button>
+        <a href="/login">
+            <button class="login-btn">Login</button>
+        </a>
+        
     </header>
 
     <main class="container">
@@ -33,12 +37,15 @@
                 ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
 
-            <button class="cadastro">Cadastre-se</button>
+            <a href="/cadastro">
+                <button class="cadastro">Cadastre-se</button>
+            </a>
+            
 
             <canvas id="linesCanvas"></canvas>
         </section>
         <section class="right">
-            <img src="img/desenhos.png" alt="Ilustração" class="illustration">
+            <img src="../static/img/desenhos.png" alt="Ilustração" class="illustration">
         </section>
     </main>
 

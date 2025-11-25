@@ -1,0 +1,306 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', Arial, sans-serif;
+  background: #fff;
+  color: #222;
+}
+.logo-top {
+  height: 55px;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-top: 12px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #F5F5F5;
+  height: 70px;
+  background: #fff;
+}
+
+nav {
+  display: flex;
+  gap: 52px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #C1C1C1;
+  font-weight: 500;
+  font-size: 1.25em;
+}
+
+nav a.active {
+  color: #eed682;
+  font-weight: bold;
+  border-bottom: 2px solid #eed682;
+}
+
+.main-container {
+  display: flex;
+}
+
+aside {
+  width: 260px;
+  background: #fafafb;
+  border-right: 1px solid #e6e6e6;
+  min-height: 100vh;
+  padding: 16px 0 16px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.autores h2,
+.listas h2,
+.tendencias h2 {
+  font-size: 1.06em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 16px;
+  color: #222;
+  margin-top: 0;
+}
+
+.autores ul,
+.listas ul,
+.tendencias ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.autores li {
+  display: flex;
+  align-items: center;
+  padding: 7px 0 7px 8px;
+  gap: 8px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 30px;
+  margin-bottom: 5px;
+}
+
+.autores li.active {
+  background: #eed68222;
+}
+
+.autores .dot {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #ccc;
+  border: 2px solid #fff;
+  display: inline-block;
+}
+
+.autores .dot.gold {
+  background: #BCA26E;
+}
+
+.mais-btn {
+  margin-top: 10px;
+  padding: 8px 22px;
+  border-radius: 8px;
+  border: none;
+  background: #cfc1fa;
+  color: #fff;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 22px;
+}
+
+.listas .playlist-btn {
+  background: #EEE;
+  border: none;
+  border-radius: 9px;
+  padding: 7px 23px;
+  font-size: 1em;
+  color: #868686;
+  box-shadow: none;
+  cursor: pointer;
+  margin-bottom: 11px;
+}
+
+.listas .tag {
+  margin: 4px 0;
+  padding: 7px 20px;
+  border-radius: 22px;
+  background: #ebebeb;
+  font-size: 1em;
+  color: #222;
+  display: inline-block;
+}
+
+.listas .tag.gold {
+  background: #eed682;
+  color: #fff;
+  font-weight: bold;
+}
+
+.tendencias h2 {
+  color: #9a6a32;
+  font-size: 1.11em;
+}
+
+.tendencias ul li {
+  color: #bca26e;
+  margin-bottom: 6px;
+  font-size: 1em;
+}
+
+.tendencias .fire {
+  color: #ea324e;
+}
+
+main {
+  flex: 1;
+  padding: 42px 44px;
+}
+
+main h1 {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 22px;
+}
+
+.card-group {
+  display: flex;
+  flex-direction: row;
+  gap: 34px;
+  margin-bottom: 28px;
+}
+
+.card {
+  background: #bca26e;
+  color: #fff;
+  border-radius: 18px;
+  padding: 20px 26px 16px 26px;
+  min-width: 340px;
+  max-width: 370px;
+  position: relative;
+  box-shadow: 0 2px 12px #d6cfa7aa;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.card-circle {
+  background: #fff;
+  border-radius: 50%;
+  width: 27px;
+  height: 27px;
+}
+
+.autor-label {
+  font-weight: bold;
+  font-size: 1.08em;
+  color: #fff;
+  display: block;
+}
+
+.autor-handle {
+  font-size: 0.98em;
+  color: #fff;
+  display: block;
+}
+
+.card p {
+  font-size: 0.95em;
+  color: #f9f2dc;
+  margin-bottom: 8px;
+  margin-top: 6px;
+}
+
+.book-cover {
+  width: 110px;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-bottom: 4px;
+  display: block;
+  box-shadow: 0 1px 5px #bd933466;
+}
+
+.dots {
+  margin: 14px 0;
+  text-align: center;
+}
+
+.dots .dot {
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: #e6d8fc;
+  margin: 0 4px;
+  opacity: 0.7;
+}
+
+.dots .dot.active {
+  background: #be9ae0;
+  opacity: 1;
+}
+
+.palette {
+  display: flex;
+  gap: 32px;
+  margin: 36px 0;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.color-block {
+  width: 80px;
+  height: 90px;
+  border-radius: 18px;
+  background: #fae8b6;
+  box-shadow: 0 2px 8px #d2ceba59;
+  border: 1.5px solid #eee;
+}
+
+
+@media (max-width: 1300px) {
+  aside {
+    width: 180px;
+  }
+  main {
+    padding: 21px 10px;
+  }
+  .palette {
+    gap: 16px;
+  }
+}
+
+@media (max-width: 900px) {
+  .main-container {
+    flex-direction: column;
+  }
+  aside {
+    min-height: unset;
+    width: 100vw;
+    border-right: none;
+    border-bottom: 1px solid #e6e6e6;
+    flex-direction: row;
+    gap: 23px;
+  }
+  main {
+    padding: 16px 2vw;
+  }
+  .card-group {
+    flex-direction: column;
+    gap: 17px;
+  }
+  .palette {
+    flex-wrap: wrap;
+    gap: 14px;
+  }
+}
