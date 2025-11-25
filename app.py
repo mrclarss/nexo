@@ -18,10 +18,10 @@ def apresentacao ():
 
 @app.route('/cadastro/<cadastro>')
 def cadastro (cadastro):
-    if cadastro == leitor:
-        return render_template('cadastro.html', cadastro=leitor)
+    if cadastro == 'leitor':
+        return render_template('cadastro.html', cadastro='leitor')
     else:
-        return render_template('cadastro.html', cadastro=autor)
+        return render_template('cadastro.html', cadastro='autor')
    
 
 @app.route('/grupo')
