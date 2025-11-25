@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', Arial, sans-serif;
+    background: #fff;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+
+.left-panel {
+    position: relative;
+    flex: 1;
+    padding: 0 0 0 40px;
+    background: radial-gradient(circle,rgba(56, 31, 87, 1) 0%, rgba(164, 103, 238, 1) 74%);
+    background-size: cover;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.logo-left {
+    position: absolute;
+    top: 28px;
+    left: 32px;
+    width: 110px;
+}
+
+.welcome-title {
+    margin-top: 200px;
+    color: #cfc1fa;
+    font-size: 3em;
+    font-weight: 800;
+}
+
+.login-btn {
+    position: absolute;
+    left: 70px;
+    bottom: 110px;
+    width: 180px;
+    padding: 16px 2px;
+    font-size: 1.2em;
+    font-weight: bold;
+    background: linear-gradient(90deg, #8859df 40%, #eed682 100%);
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s;
+    box-shadow: 0 3px 22px #6638d366;
+}
+
+
+.right-panel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: #fff;
+    position: relative;
+}
+
+.logo-central {
+    width: 120px;
+    margin-top: 50px;
+}
+
+.right-panel h2 {
+    margin-top: 8px;
+    font-size: 2.8em;
+    font-weight: bold;
+    color: #111;
+    margin-bottom: 24px;
+}
+
+form {
+    width: 100%;
+    max-width: 390px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 16px;
+}
+
+input{
+    padding: 15px 20px;
+    font-size: 1.05em;
+    border-radius: 25px;
+    border: 1.5px solid #cfc1fa;
+    outline: none;
+    margin-bottom: 2px;
+}
+
+.register-btn {
+    margin-top: 18px;
+    padding: 17px;
+    background: #7f37e8;
+    color: #fff;
+    border: none;
+    border-radius: 16px;
+    font-size: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 3px 12px #6638d366;
+}
+
+.register-btn:hover{
+    background-color: goldenrod;
+}
+
+.terms {
+    display: block;
+    text-align: center;
+    margin-top: 18px;
+    color: #7f37e8;
+    font-size: 1.12em;
+    text-decoration: underline;
+    transition: color 0.3s;
+}
+
+/* Responsividade */
+@media (max-width: 900px) {
+    .container {
+        flex-direction: column;
+    }
+    .left-panel, .right-panel {
+        border-radius: 0;
+        min-width: 100vw;
+        min-height: 50vh;
+    }
+}
