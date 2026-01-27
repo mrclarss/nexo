@@ -23,7 +23,6 @@ def cadastro (cadastro):
     else:
         return render_template('cadastro.html', cadastro='autor')
    
-
 @app.route('/grupo')
 def grupo ():
     return render_template('grupo.html')
@@ -47,9 +46,6 @@ def postagens ():
 @app.route('/sobrenos')
 def sobrenos ():
     return render_template('sobrenos.html')
-
-
-
 
 @app.route('/perfil_joao')
 def perfil_joao():
