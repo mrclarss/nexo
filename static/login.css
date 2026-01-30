@@ -80,12 +80,6 @@ body {
     text-decoration: none;
 }
 
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> 66ed0ef02730d7934c10f358ac14eb8e3902be4e
 .login-form button {
     background: #7E57C2;
     color: #fff;
@@ -110,18 +104,15 @@ body {
 }
 
 .register a {
-    color: #7E57C2;
+    background: #7E57C2;
     text-decoration: none;
     font-weight: bold;
 }
 
-<<<<<<< HEAD
 .register a:hover{
     color: goldenrod;
 }
 
-=======
->>>>>>> 66ed0ef02730d7934c10f358ac14eb8e3902be4e
 @media (max-width: 900px) {
     .container {
         flex-direction: column;
@@ -137,8 +128,4 @@ body {
         justify-content: center;
         padding: 40px 20px;
     }
-<<<<<<< HEAD
-}
-=======
-}
->>>>>>> 66ed0ef02730d7934c10f358ac14eb8e3902be4e
+
