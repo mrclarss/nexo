@@ -84,8 +84,9 @@ aside {
   margin-bottom: 5px;
 }
 
-.autores li.active {
-  background: #eed68222;
+.autores li.hover {
+  background: #FFF7E2;
+  color: #997F18;
 }
 
 .autores .dot {
@@ -95,10 +96,6 @@ aside {
   background: #ccc;
   border: 2px solid #fff;
   display: inline-block;
-}
-
-.autores .dot.gold {
-  background: #BCA26E;
 }
 
 .mais-btn {
