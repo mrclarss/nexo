@@ -1,19 +1,17 @@
 from flask import Flask, render_template
-from flask_sqlalchemy import SQLAlchemy
-from sqlalchemy.sql import text
+import mysql.connector
 
 import json
 app = Flask(__name__)
 
-db = SQLAlchemy()
 
-db_name = 'pi2025_nexo'
-
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + db_name
-
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
-
-db.init_app(app)
+conexao = mysql.connector.connect(
+    host='localhost',
+    user='psi2025_maria_07',
+    password='maria$#santos', 
+    database='pi2025_nexo',
+)
+cursor = conexao.cursor()
 
 class Sock(db.Model):
     __tablename__ = 'socks'
