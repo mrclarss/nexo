@@ -13,15 +13,25 @@ conexao = mysql.connector.connect(
 )
 cursor = conexao.cursor()
 
-class Sock(db.Model):
-    __tablename__ = 'socks'
-    id = db.Column(db.Integer, primary_key=True)
-    name = db.Column(db.String)
-    style = db.Column(db.String)
-    color = db.Column(db.String)
-    quantity = db.Column(db.Integer)
-    price = db.Column(db.Float)
-    updated = db.Column(db.String)
+class usuario(db.Model):
+    __tablename__ = 'usuario'
+    nome_usuario = db.Column(db.String(50), primary_key=True)
+    name = db.Column(db.String(250))
+    tipo_usuario = db.Column(db.String(250))
+    email = db.Column(db.String)(250)
+    telefone= db.Column(db.String(23))
+    data_nascimento = db.Column(db.date)
+    senha = db.Column(db.String(20))
+    endereco = db.Column(db.String(100))
+    sexo = db.Column(db.String(1))
+
+class grupo(db.Model):
+    __tablename__ = 'grupo'
+    id = db.column(db.integer, primary_key = True)
+    data_criacao = db.Column(db.date)
+    nome = db.Column(db.String(50))
+    descricao_grupo = db.Column(db.String(50))
+    classificacao_grupo = db.Column(db.integer) 
 
 @app.route('/')
 def index ():
