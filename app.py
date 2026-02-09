@@ -1,7 +1,29 @@
 from flask import Flask, render_template
+from flask_sqlalchemy import SQLAlchemy
+from sqlalchemy.sql import text
 
 import json
 app = Flask(__name__)
+
+db = SQLAlchemy()
+
+db_name = 'pi2025_nexo'
+
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + db_name
+
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
+
+db.init_app(app)
+
+class Sock(db.Model):
+    __tablename__ = 'socks'
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String)
+    style = db.Column(db.String)
+    color = db.Column(db.String)
+    quantity = db.Column(db.Integer)
+    price = db.Column(db.Float)
+    updated = db.Column(db.String)
 
 @app.route('/')
 def index ():
