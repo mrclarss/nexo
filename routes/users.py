@@ -44,3 +44,7 @@ def delete_user(id):
 def get_user_messages(user_id):
     response, status = listar_mensagens_por_usuario(user_id)
     return jsonify(response), status
+=["GET"])
+def get_user_messages(user_id):
+    response, status = listar_mensagens_por_usuario(user_id)
+    return jsonify(response), status
