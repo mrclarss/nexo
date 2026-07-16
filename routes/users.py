@@ -12,27 +12,27 @@ from app.controllers.user_controller import (
 users_bp = Blueprint("users", __name__)
 
 
-@users_bp.route("/", methods=["GET"])
+@users_bp.route("/listar_usuarios", methods=["GET"])
 def get_users():
     response, status = listar_usuarios()
     return jsonify(response), status
 
 
-@users_bp.route("/", methods=["POST"])
+@users_bp.route("/criar_usuario", methods=["POST"])
 def post_user():
     data = request.get_json()
     response, status = criar_usuario(data)
     return jsonify(response), status
 
 
-@users_bp.route("/<int:id>", methods=["PATCH"])
+@users_bp.route("/<int:id>/atualizar_usuario", methods=["PATCH"])
 def patch_user(id):
     data = request.get_json()
     response, status = atualizar_usuario(id, data)
     return jsonify(response), status
 
 
-@users_bp.route("/<int:id>", methods=["DELETE"])
+@users_bp.route("/<int:id>/deletar_usuario", methods=["DELETE"])
 def delete_user(id):
     response, status = deletar_usuario(id)
     if status == 204:
@@ -41,6 +41,10 @@ def delete_user(id):
 
 
 @users_bp.route("/<int:user_id>/messages", methods=["GET"])
+def get_user_messages(user_id):
+    response, status = listar_mensagens_por_usuario(user_id)
+    return jsonify(response), status
+=["GET"])
 def get_user_messages(user_id):
     response, status = listar_mensagens_por_usuario(user_id)
     return jsonify(response), status
